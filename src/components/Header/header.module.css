@@ -1,9 +1,26 @@
-.header_container{
-    width: 100%;
-    background-color: black;
-    color: white;
-    height: 150px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.header_container {
+  width: 100%;
+  background-color: black;
+  color: white;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  position: sticky;
+  margin-bottom: 30px;
+}
+
+.links_list {
+  list-style: none;
+  display: flex;
+}
+
+.link_item {
+  margin: 0 10px;
+}
+
+.link_item a {
+  text-decoration: none;
+  color: white;
 }
